@@ -13,13 +13,29 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        let add = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addTapped))
+        let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+        toolbarItems = [add, spacer]
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func addTapped() {
+
     }
 
+    override func viewSafeAreaInsetsDidChange() {
+        super.viewSafeAreaInsetsDidChange()
+        //
+    }
 
+    @IBAction func onToggleDidPress(_ sender: Any) {
+        guard let tabBar = self.tabBarController?.tabBar else {
+            return
+        }
+
+        tabBar.isHidden = !tabBar.isHidden
+//        self.navigationController?.setToolbarHidden(!tabBar.isHidden, animated: false)
+//        self.navigationController?.setToolbarHidden(!self.navigationController!.toolbar.isHidden, animated: true)
+    }
 }
 
