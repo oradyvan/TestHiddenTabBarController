@@ -279,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6PT84BL6H;
+				DEVELOPMENT_TEAM = B8W6H8V2S6;
 				INFOPLIST_FILE = TestHiddenTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.TestHiddenTabBarController;
@@ -294,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6PT84BL6H;
+				DEVELOPMENT_TEAM = B8W6H8V2S6;
 				INFOPLIST_FILE = TestHiddenTabBarController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.TestHiddenTabBarController;
